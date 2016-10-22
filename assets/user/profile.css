@@ -1,0 +1,61 @@
+#user-bgi {
+  min-width: 100%;
+  max-width: 100%;
+}
+img#user-profile-img {
+  max-width: 25%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 20px solid white;
+}
+div.row.member-tags-section {
+  margin-bottom: 10px;
+}
+div.row.member-tags-section a.btn-member-tag {
+  display: inline-block;
+  color: white;
+  margin: 3px 5px;
+  background-color: #1a6297; /* #f55370; */ /* #006699; */
+  padding: 5px 8px;
+  font-size: 90%;
+  border-radius: 20px;
+  transition: background-color 0.5s, color 0.5s; 
+}
+div.row.member-tags-section a.btn-member-tag:hover {
+  color: #1a6297; /* #f55370; */ /* #006699; */
+  background-color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+a.btn-add-member {
+  border-radius: 0px;
+  width: 100%;
+  font-size: 90%;
+  color: white;
+  background-color: #1a6297; /* #f55370; */ /* #006699; */
+  transition: background-color 0.5s, color 0.5s; 
+}
+a.btn-add-member:hover {
+  color: #1a6297; /* #f55370; */ /* #006699; */
+  background-color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+div.inner-card {
+  margin-bottom: 10%;
+}
+div.row.control-actions {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div.row.control-actions div.col-md-6 a,
+div.row.control-actions div.col-md-12 a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+div.row.control-actions div.col-md-6.btn-left {
+  padding-right: 0;
+}
+div.row.control-actions div.col-md-6.btn-right {
+  padding-left: 0;
+}

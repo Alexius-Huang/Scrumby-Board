@@ -1,0 +1,104 @@
+ul#template-section li.inner-card {
+  min-width: 25%;
+  max-width: 25%;
+  display: inline-block;
+  padding: 0;
+}
+ul#template-section li.inner-card div.card-block {
+  padding-left: 0;
+  padding-right: 0;
+}
+ul#template-section li.inner-card div.card-block div.card-title {
+  padding: 5px 20px;
+}
+ul#template-section li.inner-card div.card-block div.card-content.template-card-style {
+  background-color: #1a6297; /* #f55370; */ /* #006699; */
+  width: auto;
+  padding: 5px 15px;
+  margin: 10px 0 2px 0;
+}
+div.card-content.template-card-style p,
+div.card-content.template-card-style h1,
+div.card-content.template-card-style h2,
+div.card-content.template-card-style h3,
+div.card-content.template-card-style h4,
+div.card-content.template-card-style h5,
+div.card-content.template-card-style h6,
+div.card-content.template-card-style span {
+  white-space: pre-line;
+}
+div.row.control-actions {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+div.row.control-actions div.col-md-4 a,
+div.row.control-actions div.col-md-6 a,
+div.row.control-actions div.col-md-12 a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+div.row.control-actions div.col-md-6.btn-left,
+div.row.control-actions div.col-md-4.btn-left {
+  padding-right: 0;
+}
+div.row.control-actions div.col-md-6.btn-right,
+div.row.control-actions div.col-md-4.btn-right {
+  padding-left: 0;
+}
+div.row.control-actions div.col-md-4.btn-center {
+  padding-left: 0;
+  padding-right: 0;
+}
+li#add-template-card {
+  background-color: rgb(150, 150, 150);
+}
+div.add-template-title, div.add-template-content a {
+  background-color: rgb(100, 100, 100) !important;
+}
+div.add-template-content a:hover {
+  background-color: white !important;
+  color: rgb(100, 100, 100) !important;
+}
+a#add-template-btn {
+  text-align: center;
+  height: 100%;
+}
+div#gantt-chart text {
+  font-family: 'Maven Pro', sans-serif !important;
+  letter-spacing: -0.75px;
+}
+div.cardYoutube, div.cardImage {
+  margin: 0px -15px 10px -15px;
+}
+div.cardYoutube img, div.cardImage img {
+  max-width: 100%;
+  opacity: 0.7;
+  background-color: white;
+}
+div.cardYoutube img:hover, div.cardImage img:hover {
+  opacity: 1;
+}
+div.play-youtube, div.show-image {
+  margin-left: -35%;
+  margin-top: -25% !important;
+  width: 70%;
+}
+/*div.play-youtube div.sa-confirm-button-container {
+  float: right;
+  margin-right: 5%;
+}*/
+div.play-youtube iframe {
+  min-width: 85%;
+}
+div.show-image img {
+  max-height: 50%;
+}
+div.play-youtube div.row, div.show-image div.row {
+  border: 1px dotted rgba(100, 100, 100);
+}
+div.play-youtube p.youtube-popout-text, div.show-image p.image-popout-text {
+  float: left;
+  text-align: left;
+  margin-top: 5%;
+}

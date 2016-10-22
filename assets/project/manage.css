@@ -1,0 +1,73 @@
+img.card-image {
+  min-width: 100%;
+}
+span#project-key-validation {
+  font-family: 'Ubuntu Mono', monospace;
+  color: #d00255;
+  margin-left: 10px;
+  border: 2px solid #d00255;
+  padding: 3px;
+  border-radius: 5px;
+}
+button.btn {
+  margin-left: 20px;
+}
+button.btn-delete, a.remove-member-link, a.remove-template-link {
+  text-decoration: none;
+  color: #fb0571;
+  border-color: #fb0571;
+  background-color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+button.btn-delete:hover, a.remove-member-link:hover, a.remove-template-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #fb0571;
+  transition: background-color 0.5s, color 0.5s;
+}
+a.edit-template-link {
+  text-decoration: none;
+  color: #1a6297;
+  background-color: white;
+  transition: background-color 0.5s, color 0.5s;
+  margin-right: 10px;
+}
+a.edit-template-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #1a6297;
+  transition: background-color 0.5s, color 0.5s;  
+}
+#add-member-btn, #add-template-btn {
+  margin-left: 0;
+  margin-top: 10px;
+}
+.remove-member-link, .remove-template-link, .edit-template-link {
+  float: right;
+  text-decoration: none;
+  padding: 3px 7px;
+  border-radius: 30px;
+}
+ul.memberList, ul.templateList {
+  padding-left: 0;
+}
+ul.memberList li, ul.templateList li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+ul.memberList li span {
+  margin-right: 20px;
+}
+li.templateItem p {
+  display: inline;
+  background-color: #1a6297;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+.fa-bars {
+  margin-right: 5px;
+  cursor: move;
+  cursor: -webkit-grabbing;
+}

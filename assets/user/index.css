@@ -1,0 +1,11 @@
+#user-bgi {
+  min-width: 100%;
+  max-width: 100%;
+}
+img#user-profile-img {
+  max-width: 25%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 20px solid white;
+}

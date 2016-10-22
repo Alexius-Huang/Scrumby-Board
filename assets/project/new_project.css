@@ -1,0 +1,52 @@
+.templateForm {
+  margin-left: 40px;
+}
+.templateForm .btn-template-form {
+  color: #1a6297; /* #f55370; */ /* #006699; */
+  text-decoration: none;
+}
+.templateForm .btn-template-form:hover {
+  color: #f7758c;
+}
+.templateItem {
+  list-style-type: none;
+  margin: 5px;
+}
+.templateItem p {
+  background-color: #1a6297; /* #f55370; */ /* #006699; */
+  color: white;
+  padding: 5px 10px;
+  margin-right: 20px;
+  display: inline;
+  border-radius: 25px;
+}
+.templateItem .btn-template-item {
+  color: #1a6297; /* #f55370; */ /* #006699; */
+  text-decoration: none;
+}
+.templateItem .btn-template-item:hover {
+  color: #5e91b6; /* #f55370; */ /* #006699; */
+}
+.projectMemberForm > div.row {
+  margin: 10px 0;
+}
+#add-template-btn {
+  margin-left: 45px;
+  padding: 5px 10px;
+  border: 1px solid #1a6297; /* #f55370; */ /* #006699; */
+  border-radius: 20px;
+  transition: background-color 0.5s, color 0.5s;
+}
+#add-template-btn:hover {
+  color: white;
+  background-color: #1a6297; /* #f55370; */ /* #006699; */
+  transition: background-color 0.5s, color 0.5s;
+}
+.projectMemberTag {
+  list-style-type: none;
+}
+.fa-bars {
+  margin-right: 5px;
+  cursor: move;
+  cursor: -webkit-grabbing;
+}

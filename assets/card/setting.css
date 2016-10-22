@@ -1,0 +1,81 @@
+img.card-image {
+  min-width: 100%;
+}
+ul#radio-btn-list {
+  margin: 10px 0;
+}
+ul#radio-btn-list li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+a.btn-to-youtube {
+  width: 100%;
+  text-align: center;
+  color: #b31217;
+  background-color: white;
+  border: 1px solid #b31217;
+  transition: background-color 0.5s, color 0.5s;
+}
+a.btn-to-youtube:hover {
+  color: white;
+  background-color: #b31217;
+  transition: background-color 0.5s, color 0.5s;
+}
+div#enable-gantt-task button {
+  background-color: white;
+  color: #1a6297;
+  border-color: #1a6297;
+  transition: background-color 0.5s, color 0.5s;
+}
+div#enable-gantt-task button:hover {
+  background-color: #1a6297;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+div#disable-gantt-task button {
+  color: #fb0571;
+  background-color: white;
+  border-color: #fb0571;
+  transition: background-color 0.5s, color 0.5s;  
+}
+div#disable-gantt-task button:hover {
+  background-color: #fb0571;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+div#add-percent-div, div#minus-percent-div {
+  padding-left: 0;
+}
+button#add-percent-btn, button#minus-percent-btn {
+  background-color: white;
+  border: 1px solid #1a6297;
+  color: #1a6297;
+  transition: background-color 0.5s, color 0.5s;
+}
+button#add-percent-btn:hover, button#minus-percent-btn:hover {
+  background-color: #1a6297;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+div.ganttChartForm div.row {
+  margin-bottom: 10px;
+}
+div#image-preview{
+  color: #1a6297;
+  margin-top: 10px;
+  border: 1px dotted #1a6297;
+}
+div#youtube-preview {
+  margin-top: 10px;
+  border: 1px dotted;
+}
+div#image-preview p, div#youtube-preview p {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+div#image-preview img, div#youtube-preview img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}

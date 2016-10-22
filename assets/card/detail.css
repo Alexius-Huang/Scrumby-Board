@@ -1,0 +1,62 @@
+div.infoBlock, div.embedContentBlock {
+  display: none;
+}
+div#view-info-btn div.inner-card {
+  border-radius: 30px;
+  margin-bottom: 0;
+  transition: background-color 0.5s, color 0.5s;
+}
+div#view-info-btn div.inner-card:hover div.card-block a {
+  color: #1a6297; /* #f55370; */ /* #006699 */
+  transition: background-color 0.5s, color 0.5s;
+}
+div#view-info-btn div.inner-card:hover {
+  background-color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+div#view-info-btn div.inner-card div.card-block a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.5s;
+}
+div#info-list {
+  padding: 10px;
+}
+div#info-list div.card-block div.info {
+  border-bottom: 1px solid #a3c0d5;
+}
+div#info-list div.card-block div.info:last-child {
+  border-bottom: none;
+}
+img#youtube-thumbnail {
+  max-width: 100%;
+  opacity: 0.7;
+}
+img#image-thumbnail {
+  max-width: 100%;
+}
+img#youtube-thumbnail:hover {
+  opacity: 1;
+}
+div.play-youtube, div.show-image {
+  margin-left: -35%;
+  margin-top: -25% !important;
+  width: 70%;
+}
+/* div.play-youtube div.sa-confirm-button-container {
+  float: right;
+  margin-right: 5%;
+} */
+div.play-youtube iframe {
+  min-width: 85%;
+}
+div.show-image img {
+  max-height: 50%;
+}
+div.play-youtube div.row, div.show-image div.row {
+  border: 1px dotted rgba(100, 100, 100);
+}
+div.play-youtube p.youtube-popout-text, div.show-image p.image-popout-text {
+  float: left;
+  margin-top: 5%;
+}

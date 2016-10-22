@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(index\.php|assets|data|robots\.txt|favicon\.ico|favicon\.png|$)
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]

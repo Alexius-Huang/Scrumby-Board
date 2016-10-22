@@ -1,0 +1,17 @@
+.signIn {
+  background-color: white;
+  border-radius: 20px;
+  color: #1a6297; /* #f55370; */ /* #006699; */
+  padding: 20px;
+  margin: 30px;
+}
+.signIn .form-control {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.signInHeader h2 {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+}
