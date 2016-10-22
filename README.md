@@ -37,10 +37,6 @@ Add Plugins or Features: {
 }
 ```
 
-## DB Desaign
-Table Design (There are small differences with the current project)
-<img src="./ReadmeImages/ScrumbyDatabase.png" alt="database design" />
-
 ## Page Flow Design
 <img src="./ReadmeImages/ScrumbyPageFlow.png" alt="pageflow" />
 
