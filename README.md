@@ -45,13 +45,8 @@ Table Design (There are small differences with the current project)
 <img src="./ReadmeImages/ScrumbyPageFlow.png" alt="pageflow" />
 
 ## Page Design & UI
-### Projects Feature
-<img src="./ReadmeImages/ProjectsFeature.png" alt="project feature" />
 
-### Cards
-<img src="./ReadmeImages/CardsFeature.png" alt="project feature" />
-
-### Images & Youtube Video Content
+### Main Page Info
 <img src="./ReadmeImages/projectDetail.png" alt="project feature" />
 
 ### Gantt Chart Feature
